@@ -18,9 +18,8 @@ const Footer = () => {
           <h1 className={styles.logoText}>Blog &lt;703/&gt;</h1>
         </div>
         <p className={styles.desc}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ab
-          excepturi. Consequuntur, quaerat. Amet culpa dicta odio velit? Quasi
-          eveniet architecto quod.
+          Project by Shio Zhamurashvili (Gurjaani Tech Park) <br />
+          Happy New Year🎄🎆
         </p>
         <div className={styles.icons}>
           <Image src="/facebook.png" alt="" width={20} height={20} />
