@@ -19,7 +19,6 @@ const Footer = () => {
         </div>
         <p className={styles.desc}>
           Project by Shio Zhamurashvili (Gurjaani Tech Park) <br />
-          Happy New Year🎄🎆<br />
           (This is not end of this project i promise:))
         </p>
         <div className={styles.icons}>
