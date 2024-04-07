@@ -4,7 +4,7 @@ import styles from "./loginPage.module.css";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
-function loginPage() {
+function LoginPage() {
   const { data, status } = useSession();
 
   const router = useRouter();
@@ -30,4 +30,4 @@ function loginPage() {
   );
 }
 
-export default loginPage;
+export default LoginPage;
