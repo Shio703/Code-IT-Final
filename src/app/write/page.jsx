@@ -23,6 +23,10 @@ function WritePage() {
     router.push("/");
   }
 
+  if (!document) {
+    
+  }
+
   return (
     <div className={styles.container}>
       <input type="text" placeholder="Title" className={styles.input} />
@@ -48,6 +52,7 @@ function WritePage() {
             </button>
           </div>
         )}
+       
         {/* <ReactQuill
           className={styles.textArea}
           theme="bubble"
