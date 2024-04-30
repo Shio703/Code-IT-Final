@@ -5,3 +5,9 @@
 .title {
    margin: 50px 0;
 }
+
+.postLoading {
+   text-align: center;
+   font-size: larger;
+   margin-bottom: 15px;
+}
